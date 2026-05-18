@@ -1,0 +1,119 @@
+
+:root {
+  --primary-orange: #F7931A;
+  --accent-yellow: #F9B233;
+  --dark-grey: #2E2E2E;
+  --medium-grey: #8C8C8C;
+  --light-grey: #E6E6E6;
+  --white: #FFFFFF;
+  --max-width: 1200px;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--white);
+  color: var(--dark-grey);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Levend", sans-serif;
+  font-weight: bold;
+  color: var(--dark-grey);
+}
+
+
+.container {
+  width: 90%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-orange);
+}
+
+
+.btn-primary {
+  background-color: var(--primary-orange);
+  color: var(--white);
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Levend", sans-serif;
+  transition: 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--accent-yellow);
+  color: var(--dark-grey);
+}
+
+.btn-outline {
+  border: 2px solid var(--primary-orange);
+  padding: 8px 18px;
+  color: var(--primary-orange);
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-outline:hover {
+  background-color: var(--primary-orange);
+  color: var(--white);
+}
+
+
+.section {
+  padding: 60px 0;
+}
+
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+input,
+textarea,
+select {
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-orange);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--light-grey);
+}
+
+
+

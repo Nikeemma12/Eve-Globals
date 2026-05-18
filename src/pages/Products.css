@@ -1,0 +1,145 @@
+.products-page {
+  background-color: #ffffff;
+}
+
+/* HERO SECTION */
+.products-hero {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #f9f9f9 100%
+  );
+  text-align: center;
+  padding: 80px 20px 60px;
+}
+
+.products-hero h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2E2E2E;
+  margin-bottom: 15px;
+}
+
+.products-hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  color: #8C8C8C;
+  line-height: 1.6;
+}
+
+.orange {
+  color: #F7931A;
+}
+
+/* PRODUCTS SECTION */
+.products-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 60px 20px 80px;
+}
+
+/* GRID */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* ORANGE DIVIDER */
+.divider {
+  width: 80px;
+  height: 4px;
+  background-color: #F7931A;
+  margin: 15px auto 25px;
+  border-radius: 2px;
+}
+
+/* FILTER SECTION */
+.filters-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* CATEGORY BUTTONS */
+.category-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.filter-btn {
+  padding: 8px 18px;
+  border: 1px solid #F7931A;
+  background-color: #ffffff;
+  color: #F7931A;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.filter-btn:hover {
+  background-color: #F7931A;
+  color: #ffffff;
+}
+
+.filter-btn.active {
+  background-color: #F7931A;
+  color: #ffffff;
+}
+
+/* SEARCH + SORT */
+.search-sort {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.search-sort input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+}
+
+.search-sort input:focus {
+  border-color: #F7931A;
+}
+
+.sort-btn {
+  padding: 10px 15px;
+  background-color: #2E2E2E;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.sort-btn:hover {
+  background-color: #F7931A;
+}
+
+/* FADE IN ANIMATION */
+.fade-in {
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

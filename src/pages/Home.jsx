@@ -24,7 +24,7 @@ export const Home = () => {
           </Link>
         </div>
         <div className="hero-image">
-          <img src="/images/test tube.webp" alt="Medical Equipment" />
+          <img src="./images/test tube.webp" alt="Medical Equipment" />
         </div>
       </section>
 

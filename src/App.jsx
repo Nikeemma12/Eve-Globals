@@ -11,7 +11,7 @@ import "./App.css";
 
 export const App = () => {
   return (
-    <Router>
+    <Router basename="/Eve-Globals">
       <Navbar />
       <main style={{ minHeight: "80vh" }}>
         <Routes>
